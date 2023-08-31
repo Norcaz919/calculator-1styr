@@ -1,0 +1,61 @@
+html{
+    box-sizing: border-box;
+    height: 100%;
+}
+body {
+    box-sizing: border-box;
+    background: linear-gradient(320deg, green, white, purple);
+    display: flex;
+    align-items: center;
+    height: inherit;
+    justify-content: center;
+}
+
+
+.display-box {
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    border: 1px solid rgba(255, 255, 255, 0.10);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(35, 35, 35, 0.1);
+    color: #232323;
+    font-size: 35px;
+    overflow: auto;
+    padding: 10px;
+    text-align: right;
+    width: 326px;
+}
+
+input[type=button] {
+    background: rgba(255, 255, 255, 0.75);
+    border: 1px solid rgba (255, 255, 255, 0.01);
+    border-radius: 16px;
+    width: 110px;
+    height: 61px;
+    font-size: 35px;
+    cursor: pointer;
+    
+}
+
+table {
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    background: rgba(255, 255, 255, );
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(35, 35, 35, 0.1);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    background: rgba(255, 255, 255, 0.3);
+    flex-basis: 400px;
+    height: 400px;
+    padding: 20px 35px;
+
+}
+
+input[type=button]:hover {
+    background-color: inherit;
+}
+
+input[type=button]:active {
+    background-color: #f3c7f7
+}
